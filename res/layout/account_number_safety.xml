@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+<View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dip"
+                android:background="#7f7f7f" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="用户"
+            android:textColor="#ff333333"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20.0dip"
+            android:src="@drawable/fenlei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView02"
+            android:layout_alignBottom="@+id/TextView02"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="10.0dip"
+            android:includeFontPadding="false"
+            android:paddingLeft="10.0dip"
+            android:text="张先生"
+            android:textColor="#7f7f7f"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+<View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dip"
+                android:background="#7f7f7f" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="密码"
+            android:textColor="#ff333333"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20.0dip"
+            android:src="@drawable/fenlei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView01"
+            android:layout_alignBottom="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="10.0dip"
+            android:includeFontPadding="false"
+            android:paddingLeft="10.0dip"
+            android:text="●●●●●●"
+            android:textColor="#7f7f7f"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+<View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dip"
+                android:background="#7f7f7f" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp" >
+
+        <TextView
+            android:id="@+id/mine_forauction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="用户"
+            android:textColor="#ff333333"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20.0dip"
+            android:src="@drawable/fenlei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mine_forauction"
+            android:layout_alignBottom="@+id/mine_forauction"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="10.0dip"
+            android:includeFontPadding="false"
+            android:paddingLeft="10.0dip"
+            android:text="13876528261"
+            android:textColor="#7f7f7f"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+<View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dip"
+                android:background="#7f7f7f" />
+</LinearLayout>

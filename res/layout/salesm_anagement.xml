@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f2eada"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/fanhui" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="出售管理"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="@drawable/boder_bottom" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/mine_Successful"
+                android:layout_alignBottom="@+id/mine_Successful"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/mine_Successful"
+                android:drawablePadding="10.0dip"
+                android:includeFontPadding="false"
+                android:paddingLeft="10.0dip"
+                android:text="1辆"
+                android:textColor="#ed7d31"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/mine_Successful"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="28dp"
+                android:text="在售车源"
+                android:textColor="#ff333333"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/in_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="@drawable/boder_bottom" >
+
+            <TextView
+                android:id="@+id/saangement_yij"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="28dp"
+                android:text="已经有"
+                android:textColor="#ff333333"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/saangement_sumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/saangement_yij"
+                android:layout_alignBottom="@+id/saangement_yij"
+                android:layout_toRightOf="@+id/saangement_yij"
+                android:includeFontPadding="false"
+                android:text="10"
+                android:textColor="#ed7d31"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/saangement_sumber"
+                android:layout_alignBottom="@+id/saangement_sumber"
+                android:layout_toRightOf="@+id/saangement_sumber"
+                android:includeFontPadding="false"
+                android:text="人出价"
+                android:textSize="16.0sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView1"
+                android:layout_alignBottom="@+id/textView1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:background="#ffffff"
+                android:text="查看"
+                android:textColor="#009ad6" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/boder_bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="↑出价最高" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="↑时间最新"
+                android:textColor="#ed7d31" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="↑诚意金最多" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/bid_Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

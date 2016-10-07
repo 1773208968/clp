@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fenggogn.car"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.fenggong.system.CLPApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/qc53"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+
+        <!-- android:style/Theme.Black.NoTitleBar -->
+        <!-- android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen -->
+        <activity
+            android:name="com.fenggong.car.StartActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fenggong.car.Maincar"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Activity_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Activity_Registered"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Activity_Registered_detailed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.AccountNumberSafety"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Salesm_Anagement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Mine_successful"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Mine_forauction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Mine_transaction_management"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Mine_zijifabu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Mine_xiezhufabu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Buycar_city"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fenggong.car.Buy_car_details"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

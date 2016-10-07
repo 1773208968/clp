@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/buy_car_details_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/boder_right"
+                        android:text="私家车源" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/boder_right"
+                        android:text="车况保障" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/boder_right"
+                        android:text="车主交易" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/boder_right"
+                        android:text="不赚差价" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="别克-君威 2010款 2.0 自动 世博版"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="有事故"
+                    android:textColor="#d71345"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:background="@null"
+                        android:text="2010/08上牌" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text="7.2万公里" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:text="国四" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:text="自动" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:text="过户0次" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:text="车主已缴纳:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100元"
+                    android:textColor="#ed7d31" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="车况诚信保证金" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="查看"
+                    android:textColor="#009ad6"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:text="出售价格:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.8-6.7万"
+                    android:textColor="#ed7d31" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="左右" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="评估"
+                    android:textColor="#009ad6"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:text="服务费用:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500元"
+                    android:textColor="#ed7d31" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(统一价),买家承担" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:drawableLeft="@drawable/yuandian2"
+                android:text="基本信息" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/jibenyuan" />
+
+                <Button
+                    android:id="@+id/buy_car_details_center1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_shiyong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_qiangxian"
+                    android:layout_marginBottom="30dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_center1"
+                    android:text="使用性质" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_anjie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_shiyong"
+                    android:layout_alignBottom="@+id/buy_car_details_shiyong"
+                    android:layout_toRightOf="@+id/buy_car_details_center1"
+                    android:text="有无按揭" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_baoyang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center1"
+                    android:layout_alignLeft="@+id/buy_car_details_anjietime"
+                    android:text="保养情况" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_nianjian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_center1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="54dp"
+                    android:text="年检到期" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_nianjiantime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_nianjian"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="46dp"
+                    android:text="2016-6"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_shangxian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_center1"
+                    android:layout_marginTop="24dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_nianjiantime"
+                    android:text="商险到期" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_shangxiantime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_nianjian"
+                    android:layout_toLeftOf="@+id/buy_car_details_shangxian"
+                    android:text="2016-6"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_tianhuang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_shangxian"
+                    android:layout_alignBottom="@+id/buy_car_details_shangxian"
+                    android:layout_alignRight="@+id/buy_car_details_baoyang"
+                    android:text="车窗控制" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_tianchuangtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_nianjian"
+                    android:layout_toRightOf="@+id/buy_car_details_anjietime"
+                    android:text="全景天窗" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_baoyangtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center1"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@+id/buy_car_details_baoyang"
+                    android:text="非4s店"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_qiangxiantime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center1"
+                    android:layout_alignTop="@+id/buy_car_details_qiangxian"
+                    android:layout_toLeftOf="@+id/buy_car_details_shangxiantime"
+                    android:text="2016-6"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_shiyongtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_shiyong"
+                    android:layout_alignLeft="@+id/buy_car_details_qiangxian"
+                    android:layout_marginBottom="40dp"
+                    android:text="非营运车"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_anjietime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_shiyongtime"
+                    android:layout_alignBottom="@+id/buy_car_details_shiyongtime"
+                    android:layout_toRightOf="@+id/buy_car_details_nianjian"
+                    android:text="有按揭"
+                    android:textColor="#d71345" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_qiangxian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center1"
+                    android:layout_toLeftOf="@+id/buy_car_details_nianjian"
+                    android:text="强险到期" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/jibenyuan" />
+
+                <Button
+                    android:id="@+id/buy_car_details_center2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_yaoshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center2"
+                    android:layout_marginRight="23dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_center2"
+                    android:text="车辆钥匙" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_kongtiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_yaoshi"
+                    android:layout_marginBottom="30dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_center2"
+                    android:text="空调情况" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_kongtiaotime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_kongtiao"
+                    android:layout_alignRight="@+id/buy_car_details_yaoshi"
+                    android:layout_marginBottom="32dp"
+                    android:text="不制冷"
+                    android:textColor="#d71345" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_yaoshitime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center2"
+                    android:layout_marginRight="31dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_yaoshi"
+                    android:text="2把"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_daoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_kongtiao"
+                    android:layout_alignBottom="@+id/buy_car_details_kongtiao"
+                    android:layout_toRightOf="@+id/buy_car_details_center2"
+                    android:text="倒车系统" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_daochetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_kongtiaotime"
+                    android:layout_alignBottom="@+id/buy_car_details_kongtiaotime"
+                    android:layout_alignLeft="@+id/buy_car_details_daoche"
+                    android:layout_marginLeft="26dp"
+                    android:text="雷达"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_anquan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center2"
+                    android:layout_alignLeft="@+id/buy_car_details_daochetime"
+                    android:text="安全气囊" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_daohang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buy_car_details_zuoyitime"
+                    android:layout_centerHorizontal="true"
+                    android:text="导航设备" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_daohangtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/buy_car_details_daohang"
+                    android:layout_below="@+id/buy_car_details_daohang"
+                    android:layout_marginTop="38dp"
+                    android:text="没有导航"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_chechuang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buy_car_details_zuoyi"
+                    android:layout_toRightOf="@+id/buy_car_details_daohang"
+                    android:text="车窗控制" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_chechuangtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_daohang"
+                    android:layout_alignBottom="@+id/buy_car_details_daohang"
+                    android:layout_toRightOf="@+id/buy_car_details_chechuang"
+                    android:text="全电动"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_anquantime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/buy_car_details_center2"
+                    android:layout_marginLeft="22dp"
+                    android:layout_toRightOf="@+id/buy_car_details_anquan"
+                    android:text="未维修"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_zuoyitime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_zuoyi"
+                    android:layout_marginTop="22dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_yaoshi"
+                    android:text="真皮"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_zuoyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buy_car_details_center2"
+                    android:layout_marginTop="26dp"
+                    android:layout_toLeftOf="@+id/buy_car_details_daohang"
+                    android:text="座椅材质" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp" >
+
+                <ImageView
+                    android:id="@+id/imagezhongyaoyuan"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/zhongyaoyuan" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_shigu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imagezhongyaoyuan"
+                    android:layout_alignTop="@+id/imagezhongyaoyuan"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginTop="87dp"
+                    android:text="是否是事故车"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_fadongji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_shigu"
+                    android:layout_alignBottom="@+id/buy_car_details_shigu"
+                    android:layout_marginLeft="43dp"
+                    android:layout_toRightOf="@+id/buy_car_details_shigu"
+                    android:text="发动机情况"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_shigutime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/imagezhongyaoyuan"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="31dp"
+                    android:text="不是事故车" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_chegujia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/buy_car_details_shigu"
+                    android:layout_below="@+id/buy_car_details_shigu"
+                    android:layout_marginRight="36dp"
+                    android:layout_marginTop="80dp"
+                    android:text="车骨架情况"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_chegujiatime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imagezhongyaoyuan"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="39dp"
+                    android:text="无碰撞,无维修" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_sanreqitime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/buy_car_details_sanreqi"
+                    android:layout_below="@+id/imagezhongyaoyuan"
+                    android:text="有轻微渗水" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_biansuxiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_chegujia"
+                    android:layout_alignBottom="@+id/buy_car_details_chegujia"
+                    android:layout_alignLeft="@+id/buy_car_details_fadongji"
+                    android:layout_marginLeft="24dp"
+                    android:text="变速箱情况"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_sanreqi"
+                    android:layout_alignBottom="@+id/buy_car_details_sanreqi"
+                    android:layout_toRightOf="@+id/buy_car_details_fadongji"
+                    android:text="无异常,无维修" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_fadongjitime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buy_car_details_shigutime"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="无异常,无维修" />
+
+                <TextView
+                    android:id="@+id/buy_car_details_sanreqi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/buy_car_details_chegujiatime"
+                    android:layout_alignBottom="@+id/buy_car_details_chegujiatime"
+                    android:layout_toLeftOf="@+id/buy_car_details_biansuxiang"
+                    android:text="散热器情况"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:drawableLeft="@drawable/yuandian2"
+                android:text="钣金或喷漆修复过的地方" />
+
+            <ImageView
+                android:id="@+id/buy_car_details_imagebanjin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/banjin1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/banjxiangxi" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(共"
+                    android:textColor="#7f7f7f" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#ed7d31" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="处受损修复)"
+                    android:textColor="#7f7f7f" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:drawableLeft="@drawable/yuandian2"
+                android:text="外观和内饰受损未修护的图片" />
+
+            <ImageView
+                android:id="@+id/buy_car_details_imagewaiguanneishi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/a1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(共"
+                    android:textColor="#7f7f7f" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="#ed7d31" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张受损图片)"
+                    android:textColor="#7f7f7f" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:drawableLeft="@drawable/yuandian2"
+                android:text="图片展示" />
+
+            <ImageView
+                android:id="@+id/buy_car_details_imagetupianzhanshi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/a2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:drawableLeft="@drawable/yuandian2"
+                android:text="备注信息" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/boder_hui"
+                android:textSize="16sp"
+                android:text="经检测，车辆骨架无伤，车身有局部钣金或喷漆，外观有局部的可见伤，发动机、变速箱等运转正常，内饰磨损正常，前左大灯需要修复，收音机不能正常使用。整体车况良好，是个人一用车。" />
+
+            <View
+                android:layout_marginTop="6.0dip"
+                android:layout_width="match_parent"
+                android:layout_height="5.0dip"
+                android:background="#7f7f7f" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dip"
+                android:text="您的出价有效期为24小时，如果车主接受您的价格，我们会马上通知您！" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出售价格"
+                    android:textColor="#7f7f7f" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.8-6.8万"
+                    android:textColor="#ed7d31" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="左右"
+                    android:textColor="#7f7f7f" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:hint="请输入购买价"
+                    android:textColor="#7f7f7f" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#D7BA61"
+                    android:text="确认"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="3"
+                android:background="#1d953f"
+                android:text="我要出价"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="7"
+                android:background="#ed7d31"
+                android:text="50人浏览,11人出价1,出售中"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

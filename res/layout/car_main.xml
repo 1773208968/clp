@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffffb"
+    android:orientation="vertical"
+    tools:context="com.fenggong.car.Maincar" >
+
+    <FrameLayout
+        android:id="@+id/car_main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#afb4db"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fenlei2"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="#130c0e" />
+
+        <RadioButton
+            android:id="@+id/buycar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fenlei"
+            android:gravity="center"
+            android:text="买车"
+            android:textColor="#130c0e" />
+
+        <RadioButton
+            android:id="@+id/sellingcars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fenlei"
+            android:gravity="center"
+            android:text="卖车"
+            android:textColor="#130c0e" />
+
+        <RadioButton
+            android:id="@+id/mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fenlei"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="#130c0e" />
+    </RadioGroup>
+
+</LinearLayout>
